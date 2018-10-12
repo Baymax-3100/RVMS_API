@@ -12,6 +12,5 @@ class VehicleLocation {
     static hasMany = [locationHistory: LocationHistory]
 
     static constraints = {
-        vehicle(nullable: false)
     }
 }
