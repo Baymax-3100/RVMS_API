@@ -1,6 +1,9 @@
 package me.masumhasan.rvms_api.domain
 
-class LocationHistory {
+class CurrentLocation {
+
+    String latitude
+    String longitude
 
     Date dateCreated
     Date lastUpdated

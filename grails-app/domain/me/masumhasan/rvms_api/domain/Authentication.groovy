@@ -1,9 +1,7 @@
 package me.masumhasan.rvms_api.domain
 
-class LocationHistory {
+class Authentication {
 
-    Date dateCreated
-    Date lastUpdated
 
     static constraints = {
     }
